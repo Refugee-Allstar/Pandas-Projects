@@ -5,7 +5,7 @@ class Dataframe:
         self.df = pd.read_csv(dataframe)
         self.type = dftype
     def replace_country(self, country_to_replace):
-        self.df.replace(country_to_replace,'Josh',regex=True, inplace = True)
+        self.df.replace(country_to_replace,'I AM REPLACED',regex=True, inplace = True)
         return self.df
 
 class ReportReviewer(Dataframe):
